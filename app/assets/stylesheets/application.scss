@@ -114,7 +114,7 @@ blockquote:before{
 /* --- Section --- */
 .section {
 	position:relative;
-	padding-top:80px;
+	padding-top:60px;
 	padding-bottom:80px;
 }
 
@@ -131,7 +131,7 @@ blockquote:before{
 /* --- Background Image 1 --- */
 
 .bg-image1 {
-  background-image: url('home-background.jpg');
+  background-image: url('home-bg1.jpg');
 	position:absolute;
 	left:0;
 	right:0;
@@ -724,7 +724,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 /* -- Footer Nav -- */
 .footer-nav {
 	text-align: right;
-	padding: 20px 0px;
+	// padding: 10px 0px;
 }
 
 .footer-nav li {

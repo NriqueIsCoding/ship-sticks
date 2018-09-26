@@ -26,7 +26,7 @@
 	});
 
 	// Mobile Toggle Btn
-	$('.navbar-toggle').on('click',function(){
+	$('.navbar-toggler').on('click',function(){
 		$('#header').toggleClass('nav-collapse')
 	});
 
