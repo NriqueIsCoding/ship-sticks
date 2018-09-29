@@ -131,7 +131,7 @@ blockquote:before{
 /* --- Background Image 1 --- */
 
 .bg-image1 {
-  background-image: url('home-bg1.jpg');
+  background-image: image_url('home-bg1.jpg');
 	position:absolute;
 	left:0;
 	right:0;
@@ -159,7 +159,7 @@ blockquote:before{
 /* --- Background Image 2 --- */
 
 .bg-image2 {
-  background-image: url('cta1-background.jpg');
+  background-image: image_url('cta1-background.jpg');
 	position:absolute;
 	left:0;
 	right:0;
@@ -188,7 +188,7 @@ blockquote:before{
 /* --- Background Image 3 --- */
 
 .bg-image3 {
-  background-image: url('cta2-background.jpg');
+  background-image: image_url('cta2-background.jpg');
 	position:absolute;
 	left:0;
 	right:0;
