@@ -21,6 +21,31 @@ class ProductsController < ApplicationController
   def edit
   end
 
+  def find
+    @products = Product.all
+    #I need different approach, this wont work
+    #I need to create another model for customer session
+    sorted_products = @products.sort_by(&:weight)
+    we = nil
+    le = nil
+    wi = nil
+    he = nil
+
+    sorted_products.each do |product|
+      # puts "****** #{product.weight} x #{product.length} ******"
+      we = product.weight
+      le = product.length
+      wi = product.width
+      he = product.height
+      break if we >= params[:we].to_i
+    end
+
+    params[:we] = we
+    params[:le] = le
+    params[:wi] = wi
+    params[:he] = he
+    puts "*********#{params[:we]} x #{params[:le]} x #{params[:wi]} x #{params[:he]} "
+  end
   # POST /products
   # POST /products.json
   def create

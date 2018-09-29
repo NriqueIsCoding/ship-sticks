@@ -1,0 +1,349 @@
+<!-- Home -->
+<div id="home" class="hero-area">
+
+  <!-- Backgound Image -->
+  <div class="bg-image1 bg-parallax overlay"></div>
+
+  <!-- <div class="bg-image bg-parallax overlay" style="background-image:url(./img/home-background.jpg)"></div> -->
+  <!-- /Backgound Image -->
+
+  <div class="home-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <h1 class="white-text"> Simplify the way you travel </h1>
+          <p class="lead white-text"> Using our Free Online Calculator you will save time sending your stuff before that important trip </p>
+          <!-- <a class="main-button icon-button" href="#">Launch Calculator!</a> -->
+          <!-- <button type="button" class="btn btn-primary waves-effect waves-light" data-toggle="modal" data-target="#fullHeightModalRight">Launch Caculator</button> -->
+          <button type="button" class="btn main-button icon-button" data-toggle="modal" data-target="#centralModalSm">
+            Launch Calculator!
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+<!-- /Home -->
+
+<!-- Central Modal Small -->
+<%= render "home/modal" %>
+<!-- Central Modal Small -->
+
+<!-- About -->
+<div id="about" class="section">
+
+  <!-- container -->
+  <div class="container">
+    <!-- row -->
+    <div class="row">
+
+      <div class="col-md-6">
+        <div class="section-header">
+          <h2>Welcome to Ship Sticks</h2>
+          <p class="lead">Don't wait until last minute. Follow these Three simple steps.</p>
+        </div>
+
+        <!-- feature -->
+        <div class="feature">
+          <i class="feature-icon fa fa-laptop"></i>
+          <div class="feature-content">
+            <h4>Visit our Website </h4>
+            <p> Our Website has been designed to make your life easier. Fast access and Secure content. </p>
+          </div>
+        </div>
+        <!-- /feature -->
+
+        <!-- feature -->
+        <div class="feature">
+          <i class="feature-icon fa fa-calculator"></i>
+          <div class="feature-content">
+            <h4>Cick Launch Calculator</h4>
+            <p>With our calculator you will get results in seconds. Fast and Precise.</p>
+          </div>
+        </div>
+        <!-- /feature -->
+
+        <!-- feature -->
+        <div class="feature">
+          <i class="feature-icon fa fa-balance-scale"></i>
+          <div class="feature-content">
+            <h4>Enter information</h4>
+            <p>You will only need to enter the Length, Width, Height and Weight. We will take care of the rest.</p>
+          </div>
+        </div>
+        <!-- /feature -->
+
+      </div>
+
+      <div class="col-md-6">
+        <div class="about-img">
+          <%= image_tag("about.png") %>
+          <!-- <img src="./img/about.png" alt=""> -->
+        </div>
+      </div>
+
+    </div>
+    <!-- row -->
+
+  </div>
+  <!-- container -->
+</div>
+<!-- /About -->
+
+<!-- Results -->
+<div id="results" class="section">
+  <!-- container -->
+  <div class="container">
+    <!-- row -->
+    <div class="row justify-content-center">
+      <div class="text-center">
+        <h2>Product Description</h2>
+        <p class="lead">The Following results are accurate and reliable.</p>
+      </div>
+    </div>
+    <!-- /row -->
+
+    <!-- courses -->
+    <div id="courses-wrapper">
+      <!-- row -->
+      <div class="row">
+        <!-- single course -->
+        <div class="col-md-6">
+            <div class="course">
+              <p>This section will be hidden using jquery, and will show the resuls only when customer clicks on Calculate</p>
+
+              <button type="button" class="btn main-button icon-button" >
+                Remove
+              </button>
+              <button type="button" class="btn main-button icon-button" data-toggle="modal" data-target="#centralModalSm">
+                Update
+              </button>
+            </div>
+          </div>
+        <!-- /single course -->
+
+
+        <!-- single course -->
+        <div class="col-md-6">
+          <div class="course">
+            <a href="#" class="course-img">
+              <%= image_tag("success.jpg") %>
+              <!-- <img src="./img/course02.jpg" alt=""> -->
+              <i class="course-link-icon fa fa-link"></i>
+            </a>
+            <a class="course-title" href="#">Introduction to CSS </a>
+
+          </div>
+        </div>
+        <!-- /single course -->
+      </div>
+      <!-- /row -->
+    </div>
+    <!-- /courses -->
+  </div>
+  <!-- container -->
+</div>
+<!-- /Courses -->
+
+<!-- Courses -->
+<div id="courses" class="section">
+  <!-- container -->
+  <div class="container">
+    <!-- row -->
+    <div class="row justify-content-center">
+      <div class="text-center">
+        <h2>Most Common Sizes</h2>
+        <p class="lead">Libris vivendo eloquentiam ex ius, nec id splendide abhorreant.</p>
+      </div>
+    </div>
+    <!-- /row -->
+
+    <!-- courses -->
+    <div id="courses-wrapper">
+      <!-- row -->
+      <div class="row">
+        <!-- single course -->
+        <div class="col-md-3 col-sm-6 col-xs-6">
+          <div class="course">
+            <a href="#" class="course-img">
+              <%= image_tag("measure002.jpg") %>
+              <!-- <img src="./img/course01.jpg" alt=""> -->
+              <i class="course-link-icon fa fa-link"></i>
+            </a>
+            <a class="course-title" href="#"></a>
+            <div class="course-details">
+              <span class="course-category">Pick me</span>
+              <span class="course-price course-free">Another type</span>
+            </div>
+          </div>
+        </div>
+        <!-- /single course -->
+
+        <!-- single course -->
+        <div class="col-md-3 col-sm-6 col-xs-6">
+          <div class="course">
+            <a href="#" class="course-img">
+              <%= image_tag("measure002.jpg") %>
+              <!-- <img src="./img/course02.jpg" alt=""> -->
+              <i class="course-link-icon fa fa-link"></i>
+            </a>
+            <a class="course-title" href="#"></a>
+            <div class="course-details">
+              <span class="course-category">Pick me</span>
+              <span class="course-price course-premium">Golf</span>
+            </div>
+          </div>
+        </div>
+        <!-- /single course -->
+
+        <!-- single course -->
+        <div class="col-md-3 col-sm-6 col-xs-6">
+          <div class="course">
+            <a href="#" class="course-img">
+              <%= image_tag("measure002.jpg") %>
+              <!-- <img src="./img/course03.jpg" alt=""> -->
+              <i class="course-link-icon fa fa-link"></i>
+            </a>
+            <a class="course-title" href="#"></a>
+            <div class="course-details">
+              <span class="course-category">Pick me</span>
+              <span class="course-price course-premium">Premium</span>
+            </div>
+          </div>
+        </div>
+        <!-- /single course -->
+
+        <div class="col-md-3 col-sm-6 col-xs-6">
+          <div class="course">
+            <a href="#" class="course-img">
+              <%= image_tag("measure002.jpg") %>
+              <!-- <img src="./img/course04.jpg" alt=""> -->
+              <i class="course-link-icon fa fa-link"></i>
+            </a>
+            <a class="course-title" href="#"></a>
+            <div class="course-details">
+              <span class="course-category"Pick me</span>
+              <span class="course-price course-free">Free</span>
+            </div>
+          </div>
+        </div>
+        <!-- /single course -->
+
+      </div>
+      <!-- /row -->
+
+    </div>
+    <!-- /courses -->
+
+    <div class="row justify-content-center">
+      <div class="center-btn">
+        <button type="button" class="btn main-button icon-button" data-toggle="modal" data-target="#centralModalSm">
+          Launch Calculator!
+        </button>
+      </div>
+    </div>
+
+  </div>
+  <!-- container -->
+
+</div>
+<!-- /Courses -->
+
+<!-- Contact CTA -->
+<div id="contact-cta" class="section">
+
+  <!-- Backgound Image -->
+  <div class="bg-image3 bg-parallax overlay"></div>
+  <!-- Backgound Image -->
+
+  <!-- container -->
+  <div class="container">
+
+    <!-- row -->
+    <div class="row justify-content-center">
+
+      <div class="col-md-8 col-md-offset-2 text-center">
+        <h2 class="white-text">Contact Us</h2>
+        <p class="lead white-text">If you come across issues, Please contact us.</p>
+        <a class="main-button icon-button" href="#">Contact Us Now</a>
+      </div>
+
+    </div>
+    <!-- /row -->
+
+  </div>
+  <!-- /container -->
+
+</div>
+<!-- /Contact CTA -->
+
+<!-- Footer -->
+<footer id="footer" class="section">
+
+  <!-- container -->
+  <div class="container">
+
+    <!-- row -->
+    <div class="row">
+
+      <!-- footer logo -->
+      <div class="col-md-6">
+        <div class="footer-logo">
+          <!-- Logo -->
+          <!-- <a class="logo" href="index.html">
+            <%= image_tag("ShipSticksLogo.png") %>
+          </a> -->
+          <!-- /Logo -->
+        </div>
+      </div>
+      <!-- footer logo -->
+
+      <!-- footer nav -->
+      <div class="col-md-6">
+        <ul class="footer-nav">
+          <li><a class="nav-item nav-link active" href="#">Home</a></li>
+          <li><a class="nav-item nav-link" href="#">How it Works</a></li>
+          <li><a class="nav-item nav-link" href="#">Products</a></li>
+
+        </ul>
+      </div>
+      <!-- /footer nav -->
+
+    </div>
+    <!-- /row -->
+
+    <!-- row -->
+    <div id="bottom-footer" class="row">
+      <!-- copyright -->
+      <div class="col-md-8">
+        <div class="footer-copyright">
+          <span>&copy; Copyright 2018. All Rights Reserved. | This template was made by nrique'scoding</span>
+        </div>
+      </div>
+      <!-- /copyright -->
+      <!-- social -->
+      <div class="col-md-4">
+        <ul class="footer-social">
+          <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a></li>
+          <li><a href="#" class="instagram"><i class="fa fa-instagram"></i></a></li>
+          <li><a href="#" class="youtube"><i class="fa fa-youtube"></i></a></li>
+          <li><a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+      </div>
+      <!-- /social -->
+
+    </div>
+    <!-- row -->
+
+  </div>
+  <!-- /container -->
+
+</footer>
+<!-- /Footer -->
+
+<!-- preloader -->
+<div id='preloader'><div class='preloader'></div></div>
+<!-- /preloader -->

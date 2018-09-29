@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  lensession: 1
+  wisession: 1
+  hesession: 1
+  wesession: 1
+
+two:
+  lensession: 1
+  wisession: 1
+  hesession: 1
+  wesession: 1
